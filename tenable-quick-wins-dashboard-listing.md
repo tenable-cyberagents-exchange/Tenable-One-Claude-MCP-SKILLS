@@ -1,6 +1,6 @@
 ---
 name: "tenable-quick-wins-dashboard"
-author: "rafaelgdn"
+author: "Rafael Mello"
 description: >
   Generates an interactive Executive Quick Wins Dashboard for reducing Tenable One
   Exposure Score in cumulative phases of 10%-20%-30%-40%-50%. Connects to the Tenable
