@@ -1,6 +1,7 @@
 ---
 name: "tenable-quick-wins-dashboard"
-author: "Rafael Mello"
+author: "rafansmpj"
+github_url: "https://github.com/rafansmpj/Tenable-One-Claude-MCP-SKILLS"
 description: >
   Generates an interactive Executive Quick Wins Dashboard for reducing Tenable One
   Exposure Score in cumulative phases of 10%-20%-30%-40%-50%. Connects to the Tenable
@@ -42,7 +43,7 @@ An interactive Claude Code skill that generates a phased remediation roadmap for
 - Delivers a **React-based interactive dashboard** with:
   - Executive header with current score, target, and benchmark
   - Visual gauge/speedometer with phase markers
-  - Clickable phase cards expanding detailed action tables (Plugin ID, type, affected assets, VPR, score delta, Crown Jewel flag, suggested owner)
+  - Clickable phase cards with detailed action tables (Plugin ID, type, affected assets, VPR, score delta, Crown Jewel flag, suggested owner)
   - Cumulative score progression chart vs. industry peers
   - Benchmark vs. peers comparison card
   - Board-ready executive summary in plain business language
@@ -96,4 +97,10 @@ Each phase uses a distinct color (F1=Green, F2=Blue, F3=Purple, F4=Orange, F5=Ye
 
 ## Installation
 
-Copy `SKILL.md` into your Claude Code skills directory (e.g., `/mnt/skills/user/tenable-quick-wins-dashboard/SKILL.md`) and invoke via the skill trigger phrases above.
+Copy `SKILL.md` into your Claude Code skills directory:
+
+```
+/mnt/skills/user/tenable-quick-wins-dashboard/SKILL.md
+```
+
+Then invoke via any trigger phrase above (e.g., "quick wins", "reduce my exposure score", "roadmap de remediação").
